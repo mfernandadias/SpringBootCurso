@@ -18,7 +18,7 @@ public class ProdutoController {
         this.produtoRepository = produtoRepository;
     }
 
-    @PostMapping
+    @PostMapping("/")
     public void salvar(@RequestBody Produto produto){
         System.out.println("Produto recebido: " + produto);
 

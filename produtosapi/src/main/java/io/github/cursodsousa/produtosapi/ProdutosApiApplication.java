@@ -21,3 +21,8 @@ public class ProdutosApiApplication {
 	}
 
 }
+
+/*
+Cadastro de produto
+Classe
+ */
