@@ -1,0 +1,15 @@
+Estrutura De Arquivos
+motivational-api/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com.example.motivational/
+│               ├── MotivationalApiApplication.java
+│               ├── controller/
+│               │   └── PhraseController.java
+│               ├── model/
+│               │   └── Phrase.java
+│               └── service/
+│                   └── PhraseService.java
+└── pom.xml
+
