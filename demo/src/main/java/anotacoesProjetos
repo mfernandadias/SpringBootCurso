@@ -1,0 +1,32 @@
+site: https://www.geeksforgeeks.org/how-to-create-todo-list-api-using-spring-boot-and-mysql/
+
+Como criar uma API de lista de tarefas usando Spring Boot e MySQL ?
+Pré-requisitos
+* Bons conhecimentos de Java
+* Conhecimento básico sobre Spring Boot
+* Conhecimento básico sobre como criar API REST com SpringBoot
+
+Pra criar um aplicativo no Spring Boot, certifique-se de ter esclarecido todos os conceitos
+listados anteriormente
+
+Os pacotes serão os seguintes
+1 - controladores
+2 - serviços
+3 - repositorios
+4 - modelos
+
+Criar lista de tarefas do banco de dados;
+Como criar um banco de dados no MySQL pelo terminal ?
+
+
+Passo 5: Agora vamos configurar o arquivo application.properties e adicionar as seguintes informações
+para estabelecer a conexão com o banco de dados que no nosso caso será o MySQL, substitua o nome de
+usuário pelo nome de usuário do seu MySQL
+Detalhes: substitua o nome de usuário do seu MySQL(padrão: root) e a  senha da sua conta deverá ser
+escrita no campo spring.datasource.password
+
+Passo 6: Agora que configuramos tudo, vamos criar um modelo que nos ajudará criar uma tabela no
+banco de dados. Criaremos uma classe no pacote models e a chamaremos de Task.java, que conterá
+os seguintes dados:
+
+
