@@ -42,6 +42,9 @@ public class ArquiteturaspringApplication {
 
 		AppProperties properties = applicationContext.getBean(AppProperties.class);
 		System.out.println(properties.getValor1());
+		/*
+
+		 */
 
 	}
 
