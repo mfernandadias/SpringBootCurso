@@ -1,0 +1,33 @@
+O que é o container Spring e seus componentes
+* O container Spring é responsável por gerenciar o ciclo de vida dos bens
+* Ele faz a injeção de dependência automática dos componentes definidos
+
+Entendendo a classe Application
+* Essa classe principal inicia a aplicação
+* Contém o métodod main() com SpringApplication.run(...)
+
+@SpringBootApplication
+public class MinhaAplicacao {
+    public static void main(String[] args) {
+        SpringApplication.run(MinhaAplicacao.class, args);
+    }
+}
+
+Criando o modelo do contexto
+* Definição das entidades e serviços
+Ex: uma classe Produto e um serviço ProdutoService
+
+Criando uma configuration e registrando um bean
+Uso da anotação @Configuration e @Bean para criar beans manualmente.
+@Configuration
+public class AppConfig {
+    @Bean
+    public ProdutoService produtoService() {
+        return new ProdutoService();
+    }
+}
+
+Qualifiers e Primary
+Quando há mais de um bean do mesmo tipo, o Spring não sabe qual usar.
+@Qualifier("nomeBean") ajuda a indicar qual injetar.
+@Primary define um bean padrão.
