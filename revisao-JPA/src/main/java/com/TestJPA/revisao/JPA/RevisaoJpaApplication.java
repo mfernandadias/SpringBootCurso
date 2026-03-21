@@ -10,4 +10,6 @@ public class RevisaoJpaApplication {
 		SpringApplication.run(RevisaoJpaApplication.class, args);
 	}
 
+
+
 }

@@ -1,0 +1,21 @@
+ 📚 PROJETO: Library API (Versão Simples)
+🎯 Objetivo
+
+Gerenciar livros e autores:
+cadastrar autor
+cadastrar livro
+listar livros
+buscar por id
+deletar
+
+Estrutura
+com.example.library
+
+├── controller
+├── service
+├── repository
+├── dto
+│   ├── request
+│   └── response
+├── mapper
+├── entity
